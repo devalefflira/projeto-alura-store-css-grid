@@ -1,0 +1,62 @@
+/*Telas menores, ex. Celulares*/
+@media screen and (min-width: 0) {
+  .destaques__principal,
+  .destaques__categorias {
+    grid-column: 1 / 5;
+  }
+  .destaques__secundario:nth-child(2) {
+    display: none;
+    grid-column: none;
+    grid-row: none;
+  }
+  .destaques__secundario:nth-child(3) {
+    display: none;
+    grid-column: none;
+    grid-row: none;
+  }
+  .destaques__secundario:nth-child(4) {
+    display: none;
+    grid-column: none;
+    grid-row: none;
+  }
+  .destaques__secundario:nth-child(5) {
+    display: none;
+    grid-column: none;
+    grid-row: none;
+  }
+}
+/*Telas um pouco maiores, ex. Tablets*/
+@media screen and (min-width: 768px) {
+  .destaques__principal {
+    grid-column: 1 / 4;
+  }
+  .destaques__secundario:nth-child(2) {
+    display: flex;
+    grid-column: 4 / 4;
+    grid-row: 1/ 1;
+  }
+  .destaques__secundario:nth-child(3) {
+    display: flex;
+    grid-column: 4 / 4;
+    grid-row: 2 / 2;
+  }
+  .destaques__secundario:nth-child(4) {
+    display: flex;
+    grid-column: 4 / 4;
+    grid-row: 3 / 3;
+  }
+  .destaques__secundario:nth-child(5) {
+    display: flex;
+    grid-column: 3 / 3;
+    grid-row: 3 / 3;
+  }
+  .destaques__categorias {
+    grid-column: 1/3;
+  }
+}
+/*Telas Desktops, um pouco mais antigos*/
+@media screen and (min-width: 992px) {
+}
+/*Telas Desktop/TV, mais novos*/
+@media screen and (min-width: 1200px) {
+}
